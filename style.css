@@ -21,21 +21,12 @@ body {
     padding: 3%;
     box-shadow:4px 4px 4px 2px lightgray;
 }
-/* 
-#calculateContainer h1{
-    margin: 0;
-    width: 10vw;
-}
-
-#calculateContainer input{
-    width: 10vw;
-} */
 
 #calculateContainer input:hover {
     box-shadow:2px 2px 2px 1px lightgray;
 }
 
 #answer{
-    background-color: red;
+    background-color: white;
 }
 
