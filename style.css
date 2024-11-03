@@ -1,32 +1,21 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: transparent;
 }
 
-#container {
+#mainContainer {
     width: 100%;
     height: 100vh;
+    
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
 }
 
 #calculateContainer {
-    border: 2px solid black;
-    border-radius: 20px;
     display: grid;
-    place-content: center;
-    gap: 1rem;
-    padding: 3%;
-    box-shadow:4px 4px 4px 2px lightgray;
-}
-
-#calculateContainer input:hover {
-    box-shadow:2px 2px 2px 1px lightgray;
-}
-
-#answer{
-    background-color: white;
+    padding: 1rem;
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.2);
+    gap: 5px;
 }
 

@@ -7,15 +7,17 @@
     <title>agentCalculator</title>
 </head>
 <body>
-    <div id="container">
+    <div id="mainContainer">
         <div id="calculateContainer">
-            <h1>counter</h1>
-            <input id="startCount" type="text" placeholder="startCount">
-            <input id="endCount" type="text" placeholder="endCount">
-            <button id="inputButton">input</button>
-            <label id="answer" for=""></label>
+            <input type="text" id="hoursWorked" placeholder="hoursWorked"></input>
+            <input type="text" id="ticketsDone" placeholder="ticketsDone"></input>
+            <input type="text" placeholder="vendorCost" id="vendorCost"></input>
+            <input type="text" placeholder="obFee" id="obFee"></input>
+            <button id="calculateButton">calculate</button>
+            <label id="resultLabel"></label>
+            <label id="ticketsPerHour"></label>
+            <script src="scripts/main.js"></script>
         </div>
     </div>
-    <script src="scripts/main.js"></script>
 </body>
 </html>
