@@ -8,14 +8,21 @@
 </head>
 <body>
     <div id="mainContainer">
-        <div id="calculateContainer">
+        <div class="calculateContainer">
             <input type="text" id="hoursWorked" placeholder="hoursWorked"></input>
             <input type="text" id="ticketsDone" placeholder="ticketsDone"></input>
+            <hr>
+            <input type="text" placeholder="pivotStart" id="pivotStart">
+            <input type="text" placeholder="pivotEnd" id="pivotEnd">
+            <hr>
             <input type="text" placeholder="vendorCost" id="vendorCost"></input>
             <input type="text" placeholder="obFee" id="obFee"></input>
+            <hr>
             <button id="calculateButton">calculate</button>
-            <label id="resultLabel"></label>
+            <hr>
+            <label id="ticketResultLabel"></label>
             <label id="ticketsPerHour"></label>
+            <label id="pivotResultLabel"></label>
             <script src="scripts/main.js"></script>
         </div>
     </div>
